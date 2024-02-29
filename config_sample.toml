@@ -1,0 +1,19 @@
+[backend]
+listen-addr = ":3000"
+prefix = ""
+
+[db]
+username = ""
+password = ""
+host = ""
+port = 3306
+db = ""
+
+[jwt]
+signing_key = "my_jwt_signing_key"
+
+[crypto]
+salt = "my_crypto_salt"
+
+[debug]
+enabled = true
